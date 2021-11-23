@@ -1,0 +1,7 @@
+service emdlogger3 /vendor/bin/emdlogger3
+    class main
+    user shell
+    group system shell radio sdcard_rw inet sdcard_r media_rw
+    writepid /dev/cpuset/system-background/tasks
+    disabled
+    oneshot

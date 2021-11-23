@@ -1,0 +1,7 @@
+service pscali /vendor/bin/pscali
+        user root
+        oneshot
+        disabled
+
+on property:service.nvram_init=Ready
+        start pscali
