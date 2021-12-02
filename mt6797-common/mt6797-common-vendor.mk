@@ -31,7 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/shift/mt6797-common/proprietary/lib/libimsma_adapt.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimsma_adapt.so \
     vendor/shift/mt6797-common/proprietary/lib/libimsma_rtp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimsma_rtp.so \
     vendor/shift/mt6797-common/proprietary/lib/libimsma_socketwrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimsma_socketwrapper.so \
-    vendor/shift/mt6797-common/proprietary/lib/libion.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libion.so \
     vendor/shift/mt6797-common/proprietary/lib/libmtk_vt_service.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtk_vt_service.so \
     vendor/shift/mt6797-common/proprietary/lib/libsignal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsignal.so \
     vendor/shift/mt6797-common/proprietary/lib/libsink.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsink.so \
@@ -46,15 +45,12 @@ PRODUCT_COPY_FILES += \
     vendor/shift/mt6797-common/proprietary/lib64/libimsma_adapt.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma_adapt.so \
     vendor/shift/mt6797-common/proprietary/lib64/libimsma_rtp.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma_rtp.so \
     vendor/shift/mt6797-common/proprietary/lib64/libimsma_socketwrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma_socketwrapper.so \
-    vendor/shift/mt6797-common/proprietary/lib64/libion.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libion.so \
     vendor/shift/mt6797-common/proprietary/lib64/libsignal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsignal.so \
     vendor/shift/mt6797-common/proprietary/lib64/libsink.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsink.so \
     vendor/shift/mt6797-common/proprietary/lib64/libsource.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsource.so \
     vendor/shift/mt6797-common/proprietary/lib64/libvt_avsync.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvt_avsync.so \
     vendor/shift/mt6797-common/proprietary/lib64/vendor.mediatek.hardware.power@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.power@1.1.so \
     vendor/shift/mt6797-common/proprietary/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
-    vendor/shift/mt6797-common/proprietary/lib/libstagefright_omx.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_omx.so \
-    vendor/shift/mt6797-common/proprietary/lib64/libstagefright_omx.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_omx.so \
     vendor/shift/mt6797-common/proprietary/vendor/bin/aee_core_forwarder:$(TARGET_COPY_OUT_VENDOR)/bin/aee_core_forwarder \
     vendor/shift/mt6797-common/proprietary/vendor/bin/autobt:$(TARGET_COPY_OUT_VENDOR)/bin/autobt \
     vendor/shift/mt6797-common/proprietary/vendor/bin/ccci_fsd:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_fsd \
@@ -71,13 +67,8 @@ PRODUCT_COPY_FILES += \
     vendor/shift/mt6797-common/proprietary/vendor/bin/gsm0710muxd:$(TARGET_COPY_OUT_VENDOR)/bin/gsm0710muxd \
     vendor/shift/mt6797-common/proprietary/vendor/bin/hw/android.hardware.audio@2.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio@2.0-service-mediatek \
     vendor/shift/mt6797-common/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-mediatek \
-    vendor/shift/mt6797-common/proprietary/vendor/bin/hw/android.hardware.broadcastradio@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.broadcastradio@1.1-service \
     vendor/shift/mt6797-common/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.0-service.widevine \
-    vendor/shift/mt6797-common/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service \
-    vendor/shift/mt6797-common/proprietary/vendor/bin/hw/android.hardware.keymaster@3.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@3.0-service \
     vendor/shift/mt6797-common/proprietary/vendor/bin/hw/android.hardware.sensors@1.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@1.0-service-mediatek \
-    vendor/shift/mt6797-common/proprietary/vendor/bin/hw/android.hardware.thermal@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.thermal@1.0-service \
-    vendor/shift/mt6797-common/proprietary/vendor/bin/hw/android.hardware.vibrator@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.vibrator@1.0-service \
     vendor/shift/mt6797-common/proprietary/vendor/bin/hw/camerahalserver:$(TARGET_COPY_OUT_VENDOR)/bin/hw/camerahalserver \
     vendor/shift/mt6797-common/proprietary/vendor/bin/hw/power_native_test:$(TARGET_COPY_OUT_VENDOR)/bin/hw/power_native_test \
     vendor/shift/mt6797-common/proprietary/vendor/bin/hw/rilproxy:$(TARGET_COPY_OUT_VENDOR)/bin/hw/rilproxy \
@@ -130,7 +121,6 @@ PRODUCT_COPY_FILES += \
     vendor/shift/mt6797-common/proprietary/vendor/bin/wmt_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_launcher \
     vendor/shift/mt6797-common/proprietary/vendor/bin/wmt_loader:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_loader \
     vendor/shift/mt6797-common/proprietary/vendor/bin/wmt_loopback:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_loopback \
-    vendor/shift/mt6797-common/proprietary/vendor/compatibility_matrix.xml:$(TARGET_COPY_OUT_VENDOR)/compatibility_matrix.xml \
     vendor/shift/mt6797-common/proprietary/vendor/data/misc/ProjectConfig.mk:$(TARGET_COPY_OUT_VENDOR)/data/misc/ProjectConfig.mk \
     vendor/shift/mt6797-common/proprietary/vendor/data/misc/pdc.txt:$(TARGET_COPY_OUT_VENDOR)/data/misc/pdc.txt \
     vendor/shift/mt6797-common/proprietary/vendor/etc/.tp/.ht120.mtc:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.ht120.mtc \
@@ -155,16 +145,10 @@ PRODUCT_COPY_FILES += \
     vendor/shift/mt6797-common/proprietary/vendor/etc/ecc_list_OP17.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP17.xml \
     vendor/shift/mt6797-common/proprietary/vendor/etc/ecc_list_OP18.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP18.xml \
     vendor/shift/mt6797-common/proprietary/vendor/etc/emdlogger_usb_config.prop:$(TARGET_COPY_OUT_VENDOR)/etc/emdlogger_usb_config.prop \
-    vendor/shift/mt6797-common/proprietary/vendor/etc/fstab.mt6797:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.mt6797 \
     vendor/shift/mt6797-common/proprietary/vendor/etc/init/android.hardware.audio@2.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio@2.0-service-mediatek.rc \
     vendor/shift/mt6797-common/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc \
-    vendor/shift/mt6797-common/proprietary/vendor/etc/init/android.hardware.broadcastradio@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.broadcastradio@1.1-service.rc \
     vendor/shift/mt6797-common/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.0-service.widevine.rc \
-    vendor/shift/mt6797-common/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service.rc \
-    vendor/shift/mt6797-common/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service.rc \
     vendor/shift/mt6797-common/proprietary/vendor/etc/init/android.hardware.sensors@1.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@1.0-service-mediatek.rc \
-    vendor/shift/mt6797-common/proprietary/vendor/etc/init/android.hardware.thermal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@1.0-service.rc \
-    vendor/shift/mt6797-common/proprietary/vendor/etc/init/android.hardware.vibrator@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.vibrator@1.0-service.rc \
     vendor/shift/mt6797-common/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
     vendor/shift/mt6797-common/proprietary/vendor/etc/init/emdlogger1.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/emdlogger1.rc \
     vendor/shift/mt6797-common/proprietary/vendor/etc/init/emdlogger2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/emdlogger2.rc \
@@ -312,27 +296,15 @@ PRODUCT_COPY_FILES += \
     vendor/shift/mt6797-common/proprietary/vendor/firmware/pcm_vcorefs_ultra.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/pcm_vcorefs_ultra.bin \
     vendor/shift/mt6797-common/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
     vendor/shift/mt6797-common/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
-    vendor/shift/mt6797-common/proprietary/vendor/lib/hw/bootctrl.mt6797.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/bootctrl.mt6797.so \
-    vendor/shift/mt6797-common/proprietary/vendor/lib64/hw/bootctrl.mt6797.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/bootctrl.mt6797.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/hw/android.hardware.audio@2.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@2.0-impl-mediatek.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/hw/android.hardware.camera.provider@2.4-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.camera.provider@2.4-impl-mediatek.so \
-    vendor/shift/mt6797-common/proprietary/vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gatekeeper@1.0-impl.so \
-    vendor/shift/mt6797-common/proprietary/vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.mapper@2.0-impl.so \
-    vendor/shift/mt6797-common/proprietary/vendor/lib/hw/android.hardware.keymaster@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.keymaster@3.0-impl.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/hw/android.hardware.sensors@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.sensors@1.0-impl-mediatek.so \
-    vendor/shift/mt6797-common/proprietary/vendor/lib/hw/android.hardware.thermal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.thermal@1.0-impl.so \
-    vendor/shift/mt6797-common/proprietary/vendor/lib/hw/android.hardware.vibrator@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.vibrator@1.0-impl.so \
-    vendor/shift/mt6797-common/proprietary/vendor/lib/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.default.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/hw/audio.primary.mt6797.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.mt6797.so \
-    vendor/shift/mt6797-common/proprietary/vendor/lib/hw/audio.r_submix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.default.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/hw/audio.r_submix.mt6797.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.mt6797.so \
-    vendor/shift/mt6797-common/proprietary/vendor/lib/hw/audio.usb.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.usb.default.so \
-    vendor/shift/mt6797-common/proprietary/vendor/lib/hw/audio_policy.stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio_policy.stub.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/hw/flp.mt6797.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/flp.mt6797.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/hw/gatekeeper.mt6797.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.mt6797.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/hw/gps.mt6797.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gps.mt6797.so \
-    vendor/shift/mt6797-common/proprietary/vendor/lib/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.default.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/hw/gralloc.mt6797.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.mt6797.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/hw/hwcomposer.mt6797.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.mt6797.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/hw/keystore.mt6797.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.mt6797.so \
@@ -340,7 +312,6 @@ PRODUCT_COPY_FILES += \
     vendor/shift/mt6797-common/proprietary/vendor/lib/hw/kmsetkey.mt6797.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/kmsetkey.mt6797.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/hw/libSoftGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/libSoftGatekeeper.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/hw/memtrack.mt6797.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.mt6797.so \
-    vendor/shift/mt6797-common/proprietary/vendor/lib/hw/power.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.default.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/hw/power.mt6797.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.mt6797.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/hw/sensors.mt6797.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.mt6797.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/hw/sound_trigger.primary.mt6797.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.mt6797.so \
@@ -355,7 +326,6 @@ PRODUCT_COPY_FILES += \
     vendor/shift/mt6797-common/proprietary/vendor/lib/hw/vendor.mediatek.hardware.power@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.power@1.1-impl.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/hw/vendor.mediatek.hardware.pq@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.pq@2.0-impl.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so \
-    vendor/shift/mt6797-common/proprietary/vendor/lib/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.default.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/lbs_hidl_service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/lbs_hidl_service-impl.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/lib3a.log.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.log.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/lib3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.so \
@@ -555,7 +525,6 @@ PRODUCT_COPY_FILES += \
     vendor/shift/mt6797-common/proprietary/vendor/lib/librpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpc.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/librpcril.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpcril.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/librrc.so:$(TARGET_COPY_OUT_VENDOR)/lib/librrc.so \
-    vendor/shift/mt6797-common/proprietary/vendor/lib/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/libsimaka.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsimaka.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeech_enh_lib.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/libssl-ss.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssl-ss.so \
@@ -564,7 +533,6 @@ PRODUCT_COPY_FILES += \
     vendor/shift/mt6797-common/proprietary/vendor/lib/libstrongswan.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstrongswan.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsysenv.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/libthermalalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalalgo.so \
-    vendor/shift/mt6797-common/proprietary/vendor/lib/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/libudf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libudf.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/libui_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libui_ext.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/libvc1dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvc1dec_sa.ca7.so \
@@ -584,12 +552,9 @@ PRODUCT_COPY_FILES += \
     vendor/shift/mt6797-common/proprietary/vendor/lib/libvt_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvt_custom.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/libwo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwo.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
-    vendor/shift/mt6797-common/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libdrmclearkeyplugin.so \
-    vendor/shift/mt6797-common/proprietary/vendor/lib/mediadrm/libmockdrmcryptoplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libmockdrmcryptoplugin.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/mtk-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/mtk-ril.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/mtk-rilproxy.so:$(TARGET_COPY_OUT_VENDOR)/lib/mtk-rilproxy.so \
-    vendor/shift/mt6797-common/proprietary/vendor/lib/soundfx/libaudiopreprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiopreprocessing.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/vendor.mediatek.hardware.audio@2.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@2.1_vendor.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/vendor.mediatek.hardware.camera.ccap@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.ccap@1.0_vendor.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib/vendor.mediatek.hardware.camera.device@1.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.device@1.1_vendor.so \
@@ -622,22 +587,12 @@ PRODUCT_COPY_FILES += \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/hw/android.hardware.audio@2.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@2.0-impl-mediatek.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-mediatek.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.4-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.camera.provider@2.4-impl-mediatek.so \
-    vendor/shift/mt6797-common/proprietary/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gatekeeper@1.0-impl.so \
-    vendor/shift/mt6797-common/proprietary/vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.mapper@2.0-impl.so \
-    vendor/shift/mt6797-common/proprietary/vendor/lib64/hw/android.hardware.keymaster@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.keymaster@3.0-impl.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/hw/android.hardware.sensors@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.sensors@1.0-impl-mediatek.so \
-    vendor/shift/mt6797-common/proprietary/vendor/lib64/hw/android.hardware.thermal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.thermal@1.0-impl.so \
-    vendor/shift/mt6797-common/proprietary/vendor/lib64/hw/android.hardware.vibrator@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.vibrator@1.0-impl.so \
-    vendor/shift/mt6797-common/proprietary/vendor/lib64/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.default.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/hw/audio.primary.mt6797.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.mt6797.so \
-    vendor/shift/mt6797-common/proprietary/vendor/lib64/hw/audio.r_submix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.default.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/hw/audio.r_submix.mt6797.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.mt6797.so \
-    vendor/shift/mt6797-common/proprietary/vendor/lib64/hw/audio.usb.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.usb.default.so \
-    vendor/shift/mt6797-common/proprietary/vendor/lib64/hw/audio_policy.stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio_policy.stub.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/hw/flp.mt6797.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/flp.mt6797.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/hw/gatekeeper.mt6797.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.mt6797.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/hw/gps.mt6797.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.mt6797.so \
-    vendor/shift/mt6797-common/proprietary/vendor/lib64/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.default.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/hw/gralloc.mt6797.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.mt6797.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/hw/hwcomposer.mt6797.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.mt6797.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/hw/keystore.mt6797.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.mt6797.so \
@@ -645,7 +600,6 @@ PRODUCT_COPY_FILES += \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/hw/kmsetkey.mt6797.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/kmsetkey.mt6797.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/hw/libSoftGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/libSoftGatekeeper.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/hw/memtrack.mt6797.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.mt6797.so \
-    vendor/shift/mt6797-common/proprietary/vendor/lib64/hw/power.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.default.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/hw/power.mt6797.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.mt6797.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/hw/sensors.mt6797.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.mt6797.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/hw/sound_trigger.primary.mt6797.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.mt6797.so \
@@ -660,7 +614,6 @@ PRODUCT_COPY_FILES += \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.power@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.power@1.1-impl.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.pq@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.pq@2.0-impl.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so \
-    vendor/shift/mt6797-common/proprietary/vendor/lib64/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.default.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/lbs_hidl_service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lbs_hidl_service-impl.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/lib3a.log.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.log.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/lib3a.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.so \
@@ -767,8 +720,6 @@ PRODUCT_COPY_FILES += \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/libion_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libion_mtk.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/libion_ulit.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libion_ulit.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/libipsec_ims_shr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libipsec_ims_shr.so \
-    vendor/shift/mt6797-common/proprietary/vendor/lib64/libkeystore-engine-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-engine-wifi-hidl.so \
-    vendor/shift/mt6797-common/proprietary/vendor/lib64/libkeystore-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-wifi-hidl.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/libksensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libksensor.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/libm4u.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libm4u.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/libmal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmal.so \
@@ -837,14 +788,12 @@ PRODUCT_COPY_FILES += \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/librilproxyutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilproxyutils.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/librilutilsmtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilutilsmtk.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/libselinux_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libselinux_vendor.so \
-    vendor/shift/mt6797-common/proprietary/vendor/lib64/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/libsimaka.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimaka.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeech_enh_lib.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/libssl-ss.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssl-ss.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/libstrongswan.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstrongswan.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsysenv.so \
-    vendor/shift/mt6797-common/proprietary/vendor/lib64/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinycompress.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/libudf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libudf.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/libui_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libui_ext.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/libvcodec_cap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvcodec_cap.so \
@@ -854,12 +803,9 @@ PRODUCT_COPY_FILES += \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/libverno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libverno.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/libwo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwo.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
-    vendor/shift/mt6797-common/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libdrmclearkeyplugin.so \
-    vendor/shift/mt6797-common/proprietary/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libmockdrmcryptoplugin.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/mtk-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mtk-ril.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/mtk-rilproxy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mtk-rilproxy.so \
-    vendor/shift/mt6797-common/proprietary/vendor/lib64/soundfx/libaudiopreprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudiopreprocessing.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/vendor.mediatek.hardware.audio@2.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.audio@2.1_vendor.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.ccap@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.ccap@1.0_vendor.so \
     vendor/shift/mt6797-common/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.device@1.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.device@1.1_vendor.so \
@@ -905,11 +851,11 @@ PRODUCT_COPY_FILES += \
     vendor/shift/mt6797-common/proprietary/vendor/thh/uTAgent:$(TARGET_COPY_OUT_VENDOR)/thh/uTAgent
 
 PRODUCT_PACKAGES += \
+    bootctrl.mt6797 \
     EmCamera \
     LPPeService \
     MTKLoggerProxy \
     MTKThermalManager \
-    Music \
     NlpService \
     SimRecoveryTestTool \
     via-plugin

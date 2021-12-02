@@ -65,18 +65,6 @@ LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := Music
-LOCAL_MODULE_OWNER := shift
-LOCAL_SRC_FILES := proprietary/vendor/app/Music/Music.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := NlpService
 LOCAL_MODULE_OWNER := shift
 LOCAL_SRC_FILES := proprietary/vendor/app/NlpService/NlpService.apk
@@ -108,5 +96,19 @@ LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := .jar
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := bootctrl.mt6797
+LOCAL_MODULE_OWNER := shift
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/hw/bootctrl.mt6797.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/hw/bootctrl.mt6797.so
+LOCAL_CHECK_ELF_FILES := false
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_RELATIVE_PATH := hw
+LOCAL_MODULE_SUFFIX := .so
 LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
